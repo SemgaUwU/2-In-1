@@ -44,12 +44,7 @@ body {
     margin-top: 20px;
     width: 15vw;
     height: 20vh;
-}
-
-.two {
-    width: 50vw;
-    height: 100vh;
-    background-color: rgb(181, 112, 0);
+    user-select: none;
 }
 
 .equals {
@@ -58,12 +53,14 @@ body {
     position: absolute;
     top: 73vh;
     left: 35vw;
+    user-select: none;
 }
 
 .less {
     width: 50px;
     height: 50px;
     position: absolute;
+    user-select: none;
 }
 
 .greater {
@@ -72,4 +69,12 @@ body {
     position: absolute;
     bottom: 10vh;
     left: 5vw;
+    user-select: none;
 }
+
+.two {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(181, 112, 0);
+}
+
