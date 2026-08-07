@@ -52,5 +52,24 @@ body {
     background-color: rgb(181, 112, 0);
 }
 
+.equals {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 73vh;
+    left: 35vw;
+}
 
+.less {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
 
+.greater {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+}
