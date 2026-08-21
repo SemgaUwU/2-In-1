@@ -17,12 +17,12 @@ body {
     background-color: #faf0dc;
 }
 
-.txt1 {
+.title1 {
     font-size: 50px;
     font-family: "Rubik Dirt", system-ui;
 }
 
-.txt2 {
+.txt1 {
     text-align: center;
     margin: 0 auto; 
     margin-top: -30px;
@@ -34,7 +34,7 @@ body {
 .button1 {
     font-size: 65px;
     border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 42px;
     margin-left: 5vw;
     margin-right: 5vw;
     cursor: help;
@@ -81,5 +81,32 @@ body {
     width: 50vw;
     height: 100vh;
     background-color: rgb(181, 112, 0);
+    text-align: center;
 }
 
+.title2 {
+    font-size: 50px;
+    font-family: "Rubik Dirt", system-ui;
+    
+}
+
+.txt2 {
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: -30px;
+    font-family: "Rubik Dirt", system-ui;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.button2 {
+    font-size: 65px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    cursor: help;
+    user-select: none;
+    font-family: "Sekuya", system-ui;
+    background-color: #a26605;
+}
