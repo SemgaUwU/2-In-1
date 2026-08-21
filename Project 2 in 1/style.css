@@ -18,20 +18,23 @@ body {
 }
 
 .txt1 {
-    font-size: 29px;
+    font-size: 50px;
     font-family: "Rubik Dirt", system-ui;
 }
 
-.txt2 {    
-    margin-top: -10px;
-    margin-right: 20px;
-    margin-left: 20px;
+.txt2 {
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: -30px;
     font-family: "Rubik Dirt", system-ui;
+    width: 30vw;
+    font-size: 20px;
 }
 
 .button1 {
     font-size: 65px;
     border: 2px solid black;
+    margin-top: 20px;
     margin-left: 5vw;
     margin-right: 5vw;
     cursor: help;
@@ -48,8 +51,8 @@ body {
 }
 
 .equals {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     position: absolute;
     top: 73vh;
     left: 35vw;
@@ -57,17 +60,19 @@ body {
 }
 
 .less {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     position: absolute;
     user-select: none;
+    left: 40vw;
+    bottom: 45vh;
 }
 
 .greater {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     position: absolute;
-    bottom: 10vh;
+    bottom: 35vh;
     left: 5vw;
     user-select: none;
 }
