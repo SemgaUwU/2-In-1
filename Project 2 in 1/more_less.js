@@ -1,6 +1,6 @@
 let inputs = document.querySelectorAll(".guess-input")
 let moves = document.querySelector('.moves')
-let movesCount = 5
+let movesCount = 8
 if (moves) moves.textContent = movesCount
 
 let number = Math.floor(Math.random() * 100)

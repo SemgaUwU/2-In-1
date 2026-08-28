@@ -53,3 +53,12 @@ body {
     outline: none;
     text-align: center;
 }
+
+.option {
+    background-color: #e8d1a3;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+    margin: auto;
+
+}
