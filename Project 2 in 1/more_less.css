@@ -42,3 +42,14 @@ body {
 .block4 {
     font-size: 40px;
 }
+
+.guess-input {
+    background: transparent;
+    border: none;
+    color: black;
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 30px;
+    width: 380px; 
+    outline: none;
+    text-align: center;
+}
