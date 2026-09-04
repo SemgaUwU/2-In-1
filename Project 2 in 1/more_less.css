@@ -56,9 +56,22 @@ body {
 
 .option {
     background-color: #e8d1a3;
-    position: absolute;
     text-align: center;
     padding: 2%;
     margin: auto;
+    width: 40%;
+    position: absolute;
+    right: 28%;
+    bottom: 40%;
+    border: black solid 3px;
+    border-radius: 20px;
+}
 
+.option p {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.option h1 {
+    font-size: 50px;
 }

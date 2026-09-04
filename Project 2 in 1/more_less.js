@@ -1,8 +1,15 @@
 let inputs = document.querySelectorAll(".guess-input")
 let moves = document.querySelector('.moves')
-let movesCount = 8
-if (moves) moves.textContent = movesCount
+let variant = document.querySelectorAll('.variant')
+let easy = document.querySelector('.easy')
+let midd = document.querySelector('.midd')
+let hard = document.querySelector('.hard')
 
+
+
+let movesCount = 5
+
+if (moves) moves.textContent = movesCount
 let number = Math.floor(Math.random() * 100)
 //document.querySelector('.number').textContent = number
 
@@ -57,7 +64,7 @@ inputs.forEach((input, index) => {
                 
             }
 
-             if (movesCount == 0 && userGuess != number) {
+            if (movesCount == 0 && userGuess != number) {
                 input.type = "text"
                 let numberElement = document.querySelector('.number')
                 if (numberElement) {
@@ -73,3 +80,19 @@ inputs.forEach((input, index) => {
     })
 })
 
+
+variant.forEach(element => {
+    element.addEventListener('click', function(e) {
+        console.log('hi')
+
+        if (e.target.classList.contains('easy')) {
+            console.log('пам пам')
+        }
+
+
+
+
+
+
+    })
+});
