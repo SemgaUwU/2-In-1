@@ -80,7 +80,7 @@ body {
 .two {
     width: 50vw;
     height: 100vh;
-    background-color: rgb(181, 112, 0);
+    background-color: #cbbe99;
     text-align: center;
 }
 
@@ -108,5 +108,5 @@ body {
     cursor: help;
     user-select: none;
     font-family: "Sekuya", system-ui;
-    background-color: #a26605;
+    background-color: #c0b085;
 }

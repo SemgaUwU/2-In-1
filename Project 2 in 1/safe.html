@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="safe.css">
+    <script src="safe.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crack the safe</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Взломай сейф</h1>
+        
+        <div class="description">
+            У сейфа есть четырёхзначный код, тебе нужно разгадать его. У тебя есть 8 попыток, 
+            после каждой твоей комбинации будет показано, сколько цифр стоят на своих местах 
+            и сколько цифр присутствуют в коде, но не на своём месте. (Цифры в коде не повторяются).
+        </div>
+
+        <div class="game-status">
+            <div>Загаданный код: <span id="secret-display">? ? ? ?</span></div>
+            <div>Осталось ходов: <span id="attempts-left">5</span></div>
+        </div>
+
+        <div class="game-area">
+            <div class="history-panel" id="history-panel">
+            </div>
+
+            <div class="input-panel">
+                <label for="user-guess">Введите число:</label>
+                <div class="input-group">
+                    <input type="text" id="user-guess" maxlength="4" placeholder="1234" autocomplete="off">
+                    <button id="submit-btn">Проверить</button>
+                </div>
+                <div class="message" id="message"></div>
+                <button id="restart-btn" style="display: none; margin-top: 10px;">Играть снова</button>
+            </div>
+        </div>
+    </div>
+</body>

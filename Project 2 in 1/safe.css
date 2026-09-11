@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebd0; /* Теплый бежевый фон */
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px; /* Растягивает контейнер почти на весь экран */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Крупный заголовок */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 1000px; /* Текст красиво распределяется по ширине */
+    font-size: 1.2rem;
+}
+
+.game-status {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.6rem; /* Крупный шрифт для статуса */
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.15); /* Разделительная линия */
+    padding-bottom: 15px;
+}
+
+.game-area {
+    display: flex;
+    width: 100%; /* Растягивает игровую зону на всю ширину container */
+    gap: 60px; /* Большое расстояние между левой и правой колонками */
+}
+
+/* Левая колонка — история ходов */
+.history-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 300px;
+}
+
+.history-item {
+    font-size: 1.3rem; /* Крупный текст в истории ходов */
+    padding: 12px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Правая колонка — ввод данных */
+.input-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+input[type="text"] {
+    font-size: 1.6rem; /* Крупные цифры при вводе */
+    padding: 15px;
+    border: 2px solid #1a1a1a;
+    background-color: transparent;
+    border-radius: 6px;
+    width: 200px; /* Поле ввода стало шире */
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.3rem; /* Крупная кнопка */
+    padding: 15px 35px;
+    background-color: #1a1a1a;
+    color: #f5ebd0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.message {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 20px;
+    min-height: 40px;
+}
