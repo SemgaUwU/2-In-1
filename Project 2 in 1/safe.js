@@ -103,6 +103,12 @@ userInput.addEventListener('keypress', (e) => {
     }
 });
 
+let exit = document.querySelector('.exit')
+exit.addEventListener('click', function() {
+    window.location.href = 'file:///c%3A/Users/Semgaaa/.vscode/protdot/Project%202%20in%201/Index.html'
+})
+
 restartBtn.addEventListener('click', initGame)
 
 initGame()
+

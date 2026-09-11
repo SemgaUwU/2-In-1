@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5ebd0; /* Теплый бежевый фон */
+    background-color: #f5ebd0; 
     color: #1a1a1a;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1400px; /* Растягивает контейнер почти на весь экран */
+    max-width: 1400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem; /* Крупный заголовок */
+    font-size: 3.5rem; 
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 25px;
@@ -41,7 +41,7 @@ h1 {
     margin-bottom: 40px;
     text-align: center;
     line-height: 1.6;
-    max-width: 1000px; /* Текст красиво распределяется по ширине */
+    max-width: 1000px; 
     font-size: 1.2rem;
 }
 
@@ -49,20 +49,20 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 1.6rem; /* Крупный шрифт для статуса */
+    font-size: 1.6rem; 
     font-weight: bold;
     margin-bottom: 40px;
-    border-bottom: 2px dashed rgba(0, 0, 0, 0.15); /* Разделительная линия */
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.15);
     padding-bottom: 15px;
 }
 
 .game-area {
     display: flex;
-    width: 100%; /* Растягивает игровую зону на всю ширину container */
-    gap: 60px; /* Большое расстояние между левой и правой колонками */
+    width: 100%; 
+    gap: 60px;
 }
 
-/* Левая колонка — история ходов */
+
 .history-panel {
     flex: 1;
     display: flex;
@@ -72,7 +72,7 @@ h1 {
 }
 
 .history-item {
-    font-size: 1.3rem; /* Крупный текст в истории ходов */
+    font-size: 1.3rem; 
     padding: 12px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     display: flex;
@@ -80,7 +80,6 @@ h1 {
     align-items: center;
 }
 
-/* Правая колонка — ввод данных */
 .input-panel {
     flex: 1;
     display: flex;
@@ -101,19 +100,19 @@ label {
 }
 
 input[type="text"] {
-    font-size: 1.6rem; /* Крупные цифры при вводе */
+    font-size: 1.6rem;
     padding: 15px;
     border: 2px solid #1a1a1a;
     background-color: transparent;
     border-radius: 6px;
-    width: 200px; /* Поле ввода стало шире */
+    width: 200px; 
     text-align: center;
     letter-spacing: 8px;
     font-weight: bold;
 }
 
 button {
-    font-size: 1.3rem; /* Крупная кнопка */
+    font-size: 1.3rem;
     padding: 15px 35px;
     background-color: #1a1a1a;
     color: #f5ebd0;
@@ -139,4 +138,17 @@ button:disabled {
     font-weight: bold;
     margin-top: 20px;
     min-height: 40px;
+}
+
+.exit{
+    background-color: rgba(0, 0, 0, 0.03);
+    position: absolute;
+    padding: 10px;
+    border: black solid 3px;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    left: 1px;
+    text-align: center;
 }

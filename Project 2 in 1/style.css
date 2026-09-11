@@ -41,6 +41,7 @@ body {
     user-select: none;
     font-family: "Sekuya", system-ui;
     background-color: #f9eacd;
+    border-radius: 15px;
 }
 
 .numbers {
@@ -51,8 +52,8 @@ body {
 }
 
 .equals {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 73vh;
     left: 35vw;
@@ -60,8 +61,8 @@ body {
 }
 
 .less {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
     position: absolute;
     user-select: none;
     left: 40vw;
@@ -69,8 +70,8 @@ body {
 }
 
 .greater {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
     position: absolute;
     bottom: 35vh;
     left: 5vw;
@@ -109,4 +110,20 @@ body {
     user-select: none;
     font-family: "Sekuya", system-ui;
     background-color: #c0b085;
+    border-radius: 15px;
+}
+
+.safe {
+    border: black solid 10px;
+    border-radius: 7px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    height: 20vh;
+    padding: 10px;
+}
+
+.safe div {
+    border: black solid 10px;
+    height: 18vh;
 }

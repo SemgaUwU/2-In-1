@@ -41,6 +41,7 @@ body {
 
 .block4 {
     font-size: 40px;
+    text-align: center;
 }
 
 .guess-input {
@@ -56,7 +57,7 @@ body {
 }
 
 .option {
-    background-color: #e8d1a3;
+    background-color: #f7e7c6;
     text-align: center;
     padding: 2%;
     margin: auto;
@@ -77,3 +78,13 @@ body {
     font-size: 50px;
 }
 
+.exit{
+    background-color: #f7e7c6;
+    position: absolute;
+    padding: 10px;
+    border: black solid 3px;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
