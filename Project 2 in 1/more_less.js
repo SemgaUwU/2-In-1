@@ -39,7 +39,6 @@ variant.forEach(element => {
 
         if (moves) moves.textContent = movesCount
         let number = Math.floor(Math.random() * 100)
-        //document.querySelector('.number').textContent = number
 
         inputs.forEach((input, index) => {
             input.addEventListener("keydown", (event) => {
@@ -67,6 +66,7 @@ variant.forEach(element => {
                             document.querySelector('.number').textContent = number
                             numberElement.style.color = 'green'
                         }
+                        
                         return
                     } 
 
